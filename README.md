@@ -10,7 +10,6 @@ Takes a list of emails in csv format, column header called 'email', and adds the
 Takes information from spreadsheets about the current working state of Ivanti, SNOW, and Bomgar and compares computer list. 
 Very specifically made and a tool meant to be used for a specific invesitgation case. 
 
-
 ##Emailer_v2 [python 3]
 
 This script is a basic emailer, which uses a burner google account to email to an inbox multiple times. Prompts for credentials. 
