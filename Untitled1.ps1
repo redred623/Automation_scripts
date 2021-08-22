@@ -1,1 +1,0 @@
-﻿Import-Csv -Path '\\noahpadgel\c$\Code Library\chester_import.csv' | foreach {New-ADGroup -Name $_.name  -GroupCategory Security -GroupScope Global -Path "OU=EnterpriseGroups,DC=martinmarietta,DC=com" -Description $_.description  -WhatIf}
