@@ -38,7 +38,7 @@ function getchildgroups($groupname) {
 $script:group_list = @{}
 
 # Run the function with your group name either SAM or distinguished 
-getchildgroups("AP-ENT-MMM-CTXPlanningAnalytics-User")
+getchildgroups("**insert an AD group name**")
 
 $group_list
 
