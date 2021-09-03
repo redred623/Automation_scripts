@@ -1,6 +1,10 @@
 # Autmation_scripts
 This houses all of my PowerShell and Python automation scripts. 
 
+### AD_attribute_checker [powershell]
+
+This script takes 2 samaccount names and compares their AD attributes. Useful for tracking down attribute specific issues. 
+
 ### Add_user_to_dl [powershell]
 
 Takes a list of emails in csv format, column header called 'email', and adds them to an already created DL. 
@@ -53,8 +57,3 @@ Very helpful when security permissions are not lining up correctly.
 
 This is meant to track the success of group_list_generator. It accepts input from the user for email and days to loop and tracks
 for any expand ID's. 
-
-### AD_attribute_checker [powershell]
-
-This script takes 2 samaccount names and compares their AD attributes. Useful for tracking down attribute specific issues. 
-
