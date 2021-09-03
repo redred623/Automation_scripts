@@ -1,6 +1,7 @@
 ﻿#This takes 2 user samaccount names and compares all their attributes.
 #This then exports out of the window a grid view which will show all the ones they did not have in common. 
-$users = @('ketchalx' , 'glissrox')
+#put users into this array, make sure there are only 2, they are strings, and they are samaccount names of accounts in your AD environment. 
+$users = @()
 $user_1 =  Get-ADUser -Identity $users[0] -Properties * 
 $user_2 = Get-ADUser -Identity $users[1] -Properties * 
 $Usercomparison = @()
