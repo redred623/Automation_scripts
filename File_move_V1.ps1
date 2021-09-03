@@ -223,7 +223,7 @@ function Directory_Main {
 
 
 $version = "1.0"
-$script:path_share = "\\ralldmsapp01\ldshares\LDPackages"
+$script:path_share = "**inssert default path**"
 
 Directory_Main
 
